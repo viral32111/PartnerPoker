@@ -2,8 +2,67 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activityHomeConstraintLayout"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	tools:context=".HomeActivity">
+
+	<TextView
+		android:id="@+id/activityHomeTextViewUser"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="20dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="20dp"
+		android:text="@string/activity_home_textview_user"
+		android:textAlignment="center"
+		android:textSize="14sp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/activityHomeButtonPoke"
+		android:layout_width="250dp"
+		android:layout_height="250dp"
+		android:layout_marginStart="80dp"
+		android:layout_marginTop="150dp"
+		android:layout_marginEnd="80dp"
+		android:layout_marginBottom="160dp"
+		android:background="@drawable/button_round"
+		android:text="@string/activity_home_button_poke"
+		android:textSize="34sp"
+		app:layout_constraintBottom_toTopOf="@+id/activityHomeButtonSignIn"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/activityHomeTextViewUser" />
+
+	<Button
+		android:id="@+id/activityHomeButtonSignIn"
+		android:layout_width="0dp"
+		android:layout_height="48dp"
+		android:layout_marginStart="20dp"
+		android:layout_marginEnd="20dp"
+		android:layout_marginBottom="20dp"
+		android:onClick="onSignInClick"
+		android:text="@string/activity_home_button_signin"
+		app:layout_constraintBottom_toTopOf="@+id/activityHomeButtonSignOut"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent" />
+
+	<Button
+		android:id="@+id/activityHomeButtonSignOut"
+		android:layout_width="0dp"
+		android:layout_height="48dp"
+		android:layout_marginStart="20dp"
+		android:layout_marginEnd="20dp"
+		android:layout_marginBottom="20dp"
+		android:onClick="onSignOutClick"
+		android:text="@string/activity_home_button_signout"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

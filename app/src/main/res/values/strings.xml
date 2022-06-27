@@ -1,3 +1,8 @@
 <resources>
 	<string name="app_name">Partner Poker</string>
+
+	<string name="activity_home_textview_user">%s (%s)</string>
+	<string name="activity_home_button_poke">Poke!</string>
+	<string name="activity_home_button_signin">SIGN IN</string>
+	<string name="activity_home_button_signout">SIGN OUT</string>
 </resources>
