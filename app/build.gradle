@@ -9,13 +9,13 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
 	namespace 'com.viral32111.partnerpoker'
-	compileSdk 33
+    compileSdk 34
 
-	defaultConfig {
+    defaultConfig {
 		applicationId 'com.viral32111.partnerpoker'
 		minSdk 26
-		targetSdk 33
-		versionCode 1
+        targetSdk 34
+        versionCode 1
 		versionName '1.0.0'
 
 		testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -36,11 +36,12 @@ android {
 	kotlinOptions {
 		jvmTarget = '1.8'
 	}
+    buildToolsVersion '34.0.0'
 }
 
 dependencies {
 	// Android
-	implementation 'androidx.core:core-ktx:1.10.0'
+	implementation 'androidx.core:core-ktx:1.10.1'
 	implementation 'androidx.appcompat:appcompat:1.6.1'
 	implementation 'com.google.android.material:material:1.9.0'
 	implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
@@ -51,8 +52,9 @@ dependencies {
 	//androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 	// Firebase
-	implementation platform('com.google.firebase:firebase-bom:30.2.0') // Import the Firebase BoM (When using the BoM, you don't specify versions in Firebase library dependencies)
+	implementation platform('com.google.firebase:firebase-bom:32.2.0') // Import the Firebase BoM (When using the BoM, you don't specify versions in Firebase library dependencies)
 	implementation 'com.google.firebase:firebase-analytics-ktx' // Add the dependency for the Firebase SDK for Google Analytics
 	implementation 'com.google.firebase:firebase-auth-ktx' // Declare the dependency for the Firebase Authentication library
-	implementation 'com.google.android.gms:play-services-auth:20.5.0' // Declare the dependency for the Google Play services library and specify its version
+	implementation 'com.google.android.gms:play-services-auth:20.6.0'
+	// Declare the dependency for the Google Play services library and specify its version
 }
