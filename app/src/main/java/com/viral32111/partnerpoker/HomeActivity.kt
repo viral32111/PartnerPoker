@@ -50,7 +50,7 @@ class HomeActivity : AppCompatActivity() {
 			val user = authState.currentUser
 
 			if ( user != null ) {
-				Log.d( logTag, "User Identifier: '${ user.uid ?: "Unknown" }'" )
+				Log.d( logTag, "User Identifier: '${ user.uid }'" )
 				Log.d( logTag, "Display Name: '${ user.displayName ?: "Unknown" }'" )
 				Log.d( logTag, "Email Address: '${ user.email ?: "Unknown" }'" )
 				Log.d( logTag, "Phone Number: '${ user.phoneNumber ?: "Unknown" }'" )
@@ -139,7 +139,7 @@ class HomeActivity : AppCompatActivity() {
 		}
 	}*/
 
-	fun onSignInClick( view: View ) {
+	fun onSignInClick() {
 		Log.d( logTag, "Sign in button clicked" )
 
 		if ( firebaseAuthentication.currentUser == null ) {
@@ -157,7 +157,7 @@ class HomeActivity : AppCompatActivity() {
 		}
 	}
 
-	fun onSignOutClick( view: View ) {
+	fun onSignOutClick() {
 		Log.d( logTag, "Sign out button clicked" )
 
 		if ( firebaseAuthentication.currentUser != null ) {
