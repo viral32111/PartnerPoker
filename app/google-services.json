@@ -1,0 +1,55 @@
+{
+	"project_info": {
+		"project_number": "771443298182",
+		"project_id": "partner-poker",
+		"storage_bucket": "partner-poker.appspot.com"
+	},
+	"client": [
+		{
+			"client_info": {
+				"mobilesdk_app_id": "1:771443298182:android:c79bb2f08a83dc4b38e607",
+				"android_client_info": {
+					"package_name": "com.viral32111.partnerpoker"
+				}
+			},
+			"oauth_client": [
+				{
+					"client_id": "771443298182-7rcp7hqvovm59hls9d592e38e3ad9dpp.apps.googleusercontent.com",
+					"client_type": 1,
+					"android_info": {
+						"package_name": "com.viral32111.partnerpoker",
+						"certificate_hash": "b94e8c83f3b042a9571152328b9769741b9dea3d"
+					}
+				},
+				{
+					"client_id": "771443298182-f4qcavn7jnuidnbkqqt95muekiksnn2h.apps.googleusercontent.com",
+					"client_type": 1,
+					"android_info": {
+						"package_name": "com.viral32111.partnerpoker",
+						"certificate_hash": "95c18ff013ae4ffcc11eaa1a4a8801d175f83b66"
+					}
+				},
+				{
+					"client_id": "771443298182-gdsi68k8hbvt3j56kibuslnbvo4urbsm.apps.googleusercontent.com",
+					"client_type": 3
+				}
+			],
+			"api_key": [
+				{
+					"current_key": "AIzaSyDmAIjsVE4_jzzZBvHopuGTOay1R0Pt2mA"
+				}
+			],
+			"services": {
+				"appinvite_service": {
+					"other_platform_oauth_client": [
+						{
+							"client_id": "771443298182-gdsi68k8hbvt3j56kibuslnbvo4urbsm.apps.googleusercontent.com",
+							"client_type": 3
+						}
+					]
+				}
+			}
+		}
+	],
+	"configuration_version": "1"
+}

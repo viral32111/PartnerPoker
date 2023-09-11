@@ -86,6 +86,3 @@ lint/tmp/
 
 # This directory contains full paths
 .idea/
-
-# This file seems sensitive?
-app/google-services.json
