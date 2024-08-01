@@ -53,7 +53,7 @@ dependencies {
 	//androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 	// Firebase
-	implementation platform('com.google.firebase:firebase-bom:32.8.1') // Import the Firebase BoM (When using the BoM, you don't specify versions in Firebase library dependencies)
+	implementation platform('com.google.firebase:firebase-bom:33.1.2') // Import the Firebase BoM (When using the BoM, you don't specify versions in Firebase library dependencies)
 	implementation 'com.google.firebase:firebase-analytics-ktx' // Add the dependency for the Firebase SDK for Google Analytics
 	implementation 'com.google.firebase:firebase-auth-ktx' // Declare the dependency for the Firebase Authentication library
 	implementation 'com.google.android.gms:play-services-auth:21.2.0' // Declare the dependency for the Google Play services library and specify its version
