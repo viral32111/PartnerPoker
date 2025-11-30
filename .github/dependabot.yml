@@ -12,8 +12,6 @@ updates:
       default:
         patterns:
           - "*"
-    commit-message:
-      include: scope
 
   # build.gradle, settings.gradle, gradle.properties
   - package-ecosystem: gradle
