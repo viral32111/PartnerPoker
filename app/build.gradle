@@ -9,7 +9,7 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
 	namespace 'com.viral32111.partnerpoker'
-	compileSdk 34
+	compileSdk 36
 
 	defaultConfig {
 		applicationId 'com.viral32111.partnerpoker'
@@ -53,8 +53,7 @@ dependencies {
 	//androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 	// Firebase
-	implementation platform('com.google.firebase:firebase-bom:34.6.0') // Import the Firebase BoM (When using the BoM, you don't specify versions in Firebase library dependencies)
-	implementation 'com.google.firebase:firebase-analytics-ktx' // Add the dependency for the Firebase SDK for Google Analytics
-	implementation 'com.google.firebase:firebase-auth-ktx' // Declare the dependency for the Firebase Authentication library
+	implementation 'com.google.firebase:firebase-analytics-ktx:22.1.2' // Add the dependency for the Firebase SDK for Google Analytics
+	implementation 'com.google.firebase:firebase-auth-ktx:23.1.0' // Declare the dependency for the Firebase Authentication library
 	implementation 'com.google.android.gms:play-services-auth:21.4.0' // Declare the dependency for the Google Play services library and specify its version
 }
